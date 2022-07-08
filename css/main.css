@@ -1300,6 +1300,7 @@ header.header {
   border: 2px solid #333;
   max-width: 96px;
   padding: 2px;
+  border-radius: 50%;
 }
 .site-author-name {
   color: #f5f5f5;
@@ -2125,6 +2126,13 @@ header.header {
 .post-block:last-of-type .post-eof {
   display: none;
 }
+.post-copyright ul {
+  list-style: none;
+  padding: 0.5em 1em;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
+}
 .post-tags {
   margin-top: 40px;
   text-align: center;
@@ -2650,7 +2658,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #c4ff86;
+  background: #dd8286;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
